@@ -157,7 +157,7 @@ body{
 
 @media only screen and (max-width:688px){
     .nav-logo{
-        margin-left: 40px;
+        margin-left: 35px;
     }
     .fa-bars{
         display: inline;
