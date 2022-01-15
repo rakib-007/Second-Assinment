@@ -123,6 +123,10 @@ body{
 
 
 /* fotter added */
+footer{
+    margin: 0;
+    padding: 0;
+}
 .footer-section{
     background-color:#0A0826 ;
     color: white;
@@ -193,3 +197,26 @@ body{
     }
     
 }
+/* tablet version responsive
+.................. */
+ @media only screen and (min-width:688px) and (max-width:988px){
+    .first-container img{
+        width: 100%;
+       
+    }
+    .link-tag{
+        margin-right: 30px;
+    }
+    .second-section{
+        margin-top:100px;
+    }
+    .products{
+        grid-template-columns: repeat(2,1fr);
+        
+       
+     }  
+     .product{
+        Width:310px;
+     }
+     
+ }
